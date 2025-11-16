@@ -37,4 +37,37 @@ Below are sample outputs from the pipeline:
 **Figure:** Sample outputs from the reconstruction pipeline: (a) input RGB frame, (b) predicted depth map, and (c–d) two views of the reconstructed point cloud.
 
 
-**Figure:** Sample outputs from the reconstruction pipeline: (a) input RGB frame, (b) predicted depth map, and (c–d) two views of the reconstructed point cloud.  
+## Combined Point Cloud 
+
+
+Below are sample outputs from the pipeline:
+
+<table>
+<tr>
+
+<th>Combined Point Cloud View 1</th>
+<th>Combined Point Cloud View 2</th>
+</tr>
+<tr>
+<td><img src="Images/combined1.png" width="500"/></td>
+<td><img src="Images/combined2.png" width="500"/></td>
+</tr>
+</table>
+
+**Figure:** Sample outputs from the reconstruction pipeline: (a) Combined Cloud View 1, (b) Combined Cloud View 2.
+
+
+
+## Reprojection Errors for RGB-to-Point Cloud Alignment
+
+| Frame       | Mean Error (px) | Median Error (px) |
+|------------|----------------|-----------------|
+| frame_00001 | 163.21         | 142.12          |
+| frame_00002 | 120.12         | 105.40          |
+| frame_00003 | 130.45         | 115.30          |
+| frame_00004 | 110.78         | 98.60           |
+| frame_00005 | 125.90         | 110.75          |
+| ...         | ...            | ...             |
+| **Overall** | 147.09         | 100.25          |
+
+
