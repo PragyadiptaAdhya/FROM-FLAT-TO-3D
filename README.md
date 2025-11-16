@@ -21,6 +21,6 @@ Below are sample outputs from the pipeline:
 
 | RGB Frame | Depth Map | Point Cloud View 1 | Point Cloud View 2 |
 |-----------|-----------|------------------|------------------|
-| ![RGB Frame](Images/frame0.jpg) | ![Depth Map](Images/frame_00000_depth.png) | ![Point Cloud 1](Images/pointcloud1.png) | ![Point Cloud 2](Images/pointcloud2) |
+| ![RGB Frame](Images/frame0.jpg) | ![Depth Map](Images/frame_00000_depth.png) | ![Point Cloud 1](Images/pointcloud1.png) | ![Point Cloud 2](Images/Pointcloud2.png) |
 
 **Figure:** Sample outputs from the reconstruction pipeline: (a) input RGB frame, (b) predicted depth map, and (c–d) two views of the reconstructed point cloud.  
