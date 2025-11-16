@@ -19,8 +19,22 @@ The processing pipeline consists of four main steps:
 
 Below are sample outputs from the pipeline:
 
-| RGB Frame | Depth Map | Point Cloud View 1 | Point Cloud View 2 |
-|-----------|-----------|------------------|------------------|
-| ![RGB Frame](Images/frame0.jpg) | ![Depth Map](Images/frame_00000_depth.png) | ![Point Cloud 1](Images/pointcloud1.png) | ![Point Cloud 2](Images/Pointcloud2.png) |
+<table>
+<tr>
+<th>RGB Frame</th>
+<th>Depth Map</th>
+<th>Point Cloud View 1</th>
+<th>Point Cloud View 2</th>
+</tr>
+<tr>
+<td><img src="Images/frame0.jpg" width="200"/></td>
+<td><img src="Images/depthmap.png" width="200"/></td>
+<td><img src="Images/pointcloud1.png" width="200"/></td>
+<td><img src="Images/Pointcloud2.png" width="200"/></td>
+</tr>
+</table>
+
+**Figure:** Sample outputs from the reconstruction pipeline: (a) input RGB frame, (b) predicted depth map, and (c–d) two views of the reconstructed point cloud.
+
 
 **Figure:** Sample outputs from the reconstruction pipeline: (a) input RGB frame, (b) predicted depth map, and (c–d) two views of the reconstructed point cloud.  
