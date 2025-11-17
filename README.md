@@ -1,5 +1,5 @@
 # FROM-FLAT-TO-3D
-This is a repository that uses monocular depth estimation to generate 3D point clouds of video frames. The individual point clouds are in the end merged to create an independent scene representation.
+This is a repository that uses monocular depth estimation to generate 3D point clouds of video frames. The individual point clouds are in the end merged to create an independent scene representation. Please clone the repository and then use the notebook file. Also remember to update the file paths as per your locations.
 
 
 # 3D Reconstruction from Monocular Video
